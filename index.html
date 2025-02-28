@@ -24,7 +24,7 @@
        </nav>
     </header>
     <main>
-       <section class="flex gap-4 mt-6">
+       <section class="flex gap-4 mt-6 mb-10">
         <div>
             <div class="bg-[#FFFFFF] rounded-t-xl p-4 border-b-2  border-b-slate-300 border-dashed">
                 <div class="grid grid-cols-4 gap-5">
@@ -126,7 +126,7 @@
                 <!-- card 5 -->
                 <div class="bg-[#F4F7FF] p-4 rounded-xl">
                     <div class="bg-[#FFFFFF] p-3 rounded-lg w-1/3">
-                        <p class="text-gray-700 text-base font-normal">Google LLC</p>
+                        <p class="text-gray-700 text-base font-normal">GoogleLLC</p>
                     </div>
                     <h3 class="text-[#1E1E1E] text-2xl font-medium mt-4">Integrate OpenAI API</h3>
                     <div class="bg-[#FFFFFF] p-3 rounded-lg mt-4">
@@ -165,14 +165,24 @@
         </div>
         
         <!-- activity log -->
-        <div class="bg-[#FFFFFF] rounded-xl p-4">
-             <div class="flex gap-5 justify-center">
-                  <div><img src="assets/activity.png" alt=""></div>
-                  <div><p class="text-[#000000] text-xl font-medium">Activity Log</p></div>
-             </div>
-             
+        <div class="bg-[#FFFFFF] rounded-xl">
+            <div class="bg-[#FFFFFF] rounded-t-xl p-5 w-96 border-b-2  border-b-slate-300 border-dashed">
+                <div class="flex gap-5 items-center justify-center">
+                     <div><img src="assets/activity.png" alt=""></div>
+                     <div><p class="text-gray-700 text-xl font-medium">Activity Log</p></div>
+                </div>
+                <div class="text-center mt-6">
+                   <button class="bg-[#3752FD] p-4 text-[#FFFFFF] font-medium text-base rounded-xl">Clear History</button>
+                </div>
+            </div>
+            <div class=" bg-[#FFFFFF] p-5">
+                 <div class="bg-[#F4F7FF]">
+                    
+                 </div>
+            </div>
         </div>
        </section> 
     </main>
+    <script src="script/datetime.js"></script>
 </body>
 </html>

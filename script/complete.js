@@ -23,6 +23,7 @@ for(let i = 0; i < completeButtons.length; i++){
         if(i===5){
             alert('Congrates!!! You have completed all the current task');
         }
+        
 
     })
 

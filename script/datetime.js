@@ -1,6 +1,6 @@
     const updatedDate = new Date();
     
-    const days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+    const days = ['Sun','Mon','Tues','Wed','Thurs','Fri','Sat'];
     const months = ['January','February','March','April','May','June','July','August','September','October','Nonember','December'];
     const updatedDayName = days[updatedDate.getDay()];
     const updatedDay = updatedDate.getDate();
